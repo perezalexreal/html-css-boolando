@@ -37,5 +37,34 @@
     display: inline-block;
 }
 
+.dettails {
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+    border-radius: 50%;
+}
 
+.alert {
+    display: inline-block;
+    padding: 3px 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
 
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.like {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    background-color: white;
+    padding: 14px 14px;
+    font-size: 18px;
+}

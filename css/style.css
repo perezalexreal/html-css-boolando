@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1000px;
+    background-color: grey ;
+    margin: 0 auto;
+}
+
+.card {
+    display: inline-block;
+    width: calc(1000px / 3 - 33px);
+    margin: 0 15px;
+    border: 1px #ccc solid;
+    background-size: 90%;
+    padding: 50px 0;
+    position: relative;
+}
+
+.card .a{
+    width: 100%;
+}
+
+.card .b{
+    display: none;
+    width: 100%;
+}
+
+.card:hover .a{ 
+    display: none;
+} 
+
+.card:hover .b{ 
+    display: inline-block;
+}
+
+
+
